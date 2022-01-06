@@ -6,8 +6,9 @@ font-size: 20px;
 .mission{
     color: rgb(165, 80, 245);
 }
-section{
+.top{
     display:flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -26,4 +27,43 @@ section{
 }
 .about-more{
     padding-left: 5%;
+}
+.plan-box{
+    padding-left: 45%;
+}
+#year{
+    color:rgb(165, 80, 245);
+    padding-left: 2%;
+}
+.container{
+    display:flex;
+    margin-top: 5%;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .box{
+    background-color:rgb(176, 228, 230);
+    margin:5px;
+    margin-bottom: 100px;
+    width: 300px;
+    padding:20px;
+    line-height: 20px;
+    position: relative;
+}
+.container .box h3{
+    color: #9e539e;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.container .box .team-img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position: center;
+}
+.container .box .team-img img{
+    width: 100Px;
+    height:100px;
 }
