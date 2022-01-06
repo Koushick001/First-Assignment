@@ -14,7 +14,7 @@ font-size: 20px;
 }
 .top{
     display:flex;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -28,7 +28,7 @@ font-size: 20px;
 .support-button{
     text-decoration: none;
     background-image: linear-gradient(white,purple);
-    padding:10px 20px;
+    padding:10px 80px;
     color:rgb(48, 32, 32);
     border-radius: 5px;
     font-weight: 700;
@@ -38,6 +38,7 @@ font-size: 20px;
 }
 .plan-box{
     padding-left: 45%;
+    padding-bottom: 15%;
 }
 #year{
     color:rgb(165, 80, 245);
@@ -46,6 +47,7 @@ font-size: 20px;
 .box-area{
     display:flex;
     justify-content: center;
+    padding-bottom: 10%;
 }
 .box-area #box-1{
     background-image:linear-gradient(blue, rgb(235, 235, 198));
@@ -114,4 +116,18 @@ font-size: 20px;
     background-image: url(mission-2022-main/images/shapes/shape-5.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 15%;
+}
+footer p{
+    text-align: center;
+}
+footer h2{
+    text-align:center;
+}
+#color{
+    color:rgb(197, 62, 38)
+}
+footer{
+    background-color: rgb(226, 226, 125);
+
 }
